@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuser_presentation.a CMakeFiles/user_presentation.dir/source/controllers/presentation/user.cpp.o
+/usr/bin/ranlib libuser_presentation.a

@@ -1,0 +1,146 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "source/entities/proposal.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"source/entities/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread  -ldl -Wall  /MDd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "currency::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "code::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "date::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "date_extended::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "number::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "string_extended::@8dbb2017a417b1d1ff38"
+		}
+	],
+	"id" : "proposal::@8dbb2017a417b1d1ff38",
+	"name" : "proposal",
+	"nameOnDisk" : "proposal.lib",
+	"paths" : 
+	{
+		"build" : "source/entities",
+		"source" : "source/entities"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/entities/proposal.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

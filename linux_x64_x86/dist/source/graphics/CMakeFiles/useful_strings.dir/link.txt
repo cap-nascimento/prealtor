@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuseful_strings.a CMakeFiles/useful_strings.dir/useful_strings.cpp.o
+/usr/bin/ranlib libuseful_strings.a

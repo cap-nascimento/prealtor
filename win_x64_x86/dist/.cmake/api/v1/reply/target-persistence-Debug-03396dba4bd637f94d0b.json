@@ -1,0 +1,178 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "persistence.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread  -ldl -Wall  /MDd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "user::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "address::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "realty::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "currency::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "code::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "description::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "date::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "email::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "date_extended::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "proposal::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "estateclass::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "phone::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "number::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "password::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "name::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "sqlite3::@0c8d8ab3459368375fe6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "string_extended::@8dbb2017a417b1d1ff38"
+		}
+	],
+	"id" : "persistence::@6890427a1f51a3e7e1df",
+	"name" : "persistence",
+	"nameOnDisk" : "persistence.lib",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/controllers/persistence/persistency.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

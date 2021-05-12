@@ -1,0 +1,176 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "source/entities/realty.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"source/entities/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread  -ldl -Wall  /MDd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "address::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "currency::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "code::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "description::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "date::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "date_extended::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "estateclass::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "number::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "string_extended::@8dbb2017a417b1d1ff38"
+		}
+	],
+	"id" : "realty::@8dbb2017a417b1d1ff38",
+	"name" : "realty",
+	"nameOnDisk" : "realty.lib",
+	"paths" : 
+	{
+		"build" : "source/entities",
+		"source" : "source/entities"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/entities/realty.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

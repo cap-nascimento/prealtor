@@ -1,0 +1,2 @@
+/usr/bin/ar qc librealty_presentation.a CMakeFiles/realty_presentation.dir/source/controllers/presentation/realty.cpp.o
+/usr/bin/ranlib librealty_presentation.a

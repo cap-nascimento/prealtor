@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuser_service.a CMakeFiles/user_service.dir/source/controllers/service/user.cpp.o
+/usr/bin/ranlib libuser_service.a

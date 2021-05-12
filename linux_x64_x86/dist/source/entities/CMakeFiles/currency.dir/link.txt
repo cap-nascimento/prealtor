@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcurrency.a CMakeFiles/currency.dir/__/domains/currency.cpp.o
+/usr/bin/ranlib libcurrency.a

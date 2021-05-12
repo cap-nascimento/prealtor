@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdescription.a CMakeFiles/description.dir/__/domains/description.cpp.o
+/usr/bin/ranlib libdescription.a

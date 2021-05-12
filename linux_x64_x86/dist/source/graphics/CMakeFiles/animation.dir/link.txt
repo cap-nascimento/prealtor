@@ -1,0 +1,2 @@
+/usr/bin/ar qc libanimation.a CMakeFiles/animation.dir/animation.cpp.o
+/usr/bin/ranlib libanimation.a

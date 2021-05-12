@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdate_extended.a CMakeFiles/date_extended.dir/__/custom_libs/date_extended.cpp.o
+/usr/bin/ranlib libdate_extended.a

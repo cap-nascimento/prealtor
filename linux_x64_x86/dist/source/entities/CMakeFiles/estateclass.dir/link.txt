@@ -1,0 +1,2 @@
+/usr/bin/ar qc libestateclass.a CMakeFiles/estateclass.dir/__/domains/estateclass.cpp.o
+/usr/bin/ranlib libestateclass.a

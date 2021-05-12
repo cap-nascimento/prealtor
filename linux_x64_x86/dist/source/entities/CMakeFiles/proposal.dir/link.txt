@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproposal.a CMakeFiles/proposal.dir/proposal.cpp.o
+/usr/bin/ranlib libproposal.a

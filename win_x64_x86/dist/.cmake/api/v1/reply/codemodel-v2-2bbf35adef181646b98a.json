@@ -1,0 +1,359 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						6,
+						16,
+						18,
+						21,
+						22,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "source/entities",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/entities",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						19,
+						20,
+						24,
+						26
+					]
+				},
+				{
+					"build" : "source/graphics",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source/graphics",
+					"targetIndexes" : 
+					[
+						1,
+						4,
+						25
+					]
+				},
+				{
+					"build" : "resources",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "resources",
+					"targetIndexes" : 
+					[
+						23
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "prealtor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "address::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-address-Debug-90b40ae6bd35ae12cd8b.json",
+					"name" : "address",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "animation::@a8ced0043e609e2153d6",
+					"jsonFile" : "target-animation-Debug-ac6353d05c678b447749.json",
+					"name" : "animation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auth_presentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auth_presentation-Debug-04e6b4f6f8c7a295c159.json",
+					"name" : "auth_presentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "auth_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-auth_service-Debug-8fc3d00730ff129ef251.json",
+					"name" : "auth_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "body::@a8ced0043e609e2153d6",
+					"jsonFile" : "target-body-Debug-1129ba45954ddb607dca.json",
+					"name" : "body",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "code::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-code-Debug-b885d45a037b9498af19.json",
+					"name" : "code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_presentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_presentation-Debug-949a044568a7ae36f98e.json",
+					"name" : "control_presentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "currency::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-currency-Debug-8b94dabc294d19144694.json",
+					"name" : "currency",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "date::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-date-Debug-01593684aa2d9d266701.json",
+					"name" : "date",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "date_extended::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-date_extended-Debug-0af552d1289790927ea4.json",
+					"name" : "date_extended",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "description::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-description-Debug-c9303bb9709195b68248.json",
+					"name" : "description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "email::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-email-Debug-ea2a0d65aa08631b6cdb.json",
+					"name" : "email",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "estateclass::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-estateclass-Debug-765cf24610d8ec4fac7b.json",
+					"name" : "estateclass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "name::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-name-Debug-dfac6407e2cd464b80ee.json",
+					"name" : "name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "number::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-number-Debug-c654f42ed829fbd56a14.json",
+					"name" : "number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "password::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-password-Debug-8e81c777a7fea0c452df.json",
+					"name" : "password",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "persistence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-persistence-Debug-03396dba4bd637f94d0b.json",
+					"name" : "persistence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "phone::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-phone-Debug-01c12c144ccb5976503e.json",
+					"name" : "phone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prealtor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prealtor-Debug-b04da900193c1d23037b.json",
+					"name" : "prealtor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "proposal::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-proposal-Debug-f4ac1ed5c0e2f75e6bfb.json",
+					"name" : "proposal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "realty::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-realty-Debug-54a14df14ae839a9fb05.json",
+					"name" : "realty",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realty_presentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realty_presentation-Debug-1583ed59e7ad218ba9ee.json",
+					"name" : "realty_presentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realty_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realty_service-Debug-c9d6d96322dccdccc134.json",
+					"name" : "realty_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sqlite3::@0c8d8ab3459368375fe6",
+					"jsonFile" : "target-sqlite3-Debug-cc5ef3a51719e2dbc286.json",
+					"name" : "sqlite3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "string_extended::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-string_extended-Debug-8e0227ced4f868c192a9.json",
+					"name" : "string_extended",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "useful_strings::@a8ced0043e609e2153d6",
+					"jsonFile" : "target-useful_strings-Debug-8c99b351d325d357fc0f.json",
+					"name" : "useful_strings",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "user::@8dbb2017a417b1d1ff38",
+					"jsonFile" : "target-user-Debug-bbbbb6245b9986ffafa7.json",
+					"name" : "user",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_presentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_presentation-Debug-fbfdd5179439357c68ad.json",
+					"name" : "user_presentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "user_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-user_service-Debug-0529db89fb19d479976a.json",
+					"name" : "user_service",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ander/Programming/projects/prealtor/prealtor_1.0/x86-Debug",
+		"source" : "C:/Users/ander/Programming/projects/prealtor/prealtor_1.0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

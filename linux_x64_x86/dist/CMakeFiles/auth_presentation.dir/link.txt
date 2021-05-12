@@ -1,0 +1,2 @@
+/usr/bin/ar qc libauth_presentation.a CMakeFiles/auth_presentation.dir/source/controllers/presentation/authentication.cpp.o
+/usr/bin/ranlib libauth_presentation.a

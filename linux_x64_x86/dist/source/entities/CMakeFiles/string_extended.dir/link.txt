@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstring_extended.a CMakeFiles/string_extended.dir/__/custom_libs/string_extended.cpp.o
+/usr/bin/ranlib libstring_extended.a

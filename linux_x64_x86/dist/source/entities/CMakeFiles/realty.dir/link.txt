@@ -1,0 +1,2 @@
+/usr/bin/ar qc librealty.a CMakeFiles/realty.dir/realty.cpp.o
+/usr/bin/ranlib librealty.a

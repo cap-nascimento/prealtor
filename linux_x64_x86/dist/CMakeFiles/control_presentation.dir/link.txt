@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcontrol_presentation.a CMakeFiles/control_presentation.dir/source/controllers/presentation/control.cpp.o
+/usr/bin/ranlib libcontrol_presentation.a

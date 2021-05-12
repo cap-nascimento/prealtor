@@ -1,0 +1,2 @@
+/usr/bin/ar qc libauth_service.a CMakeFiles/auth_service.dir/source/controllers/service/authentication.cpp.o
+/usr/bin/ranlib libauth_service.a

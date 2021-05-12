@@ -1,0 +1,373 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "prealtor.exe"
+		},
+		{
+			"path" : "prealtor.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pthread  -ldl -Wall  /MDd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "control_presentation::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "user::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "address::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "realty::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "currency::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "code::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "description::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "date::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "email::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "auth_service::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "realty_presentation::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "persistence::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "auth_presentation::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "user_presentation::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "user_service::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "realty_service::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "date_extended::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "proposal::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "estateclass::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "phone::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "number::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "body::@a8ced0043e609e2153d6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "animation::@a8ced0043e609e2153d6"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "password::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "name::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "sqlite3::@0c8d8ab3459368375fe6"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "string_extended::@8dbb2017a417b1d1ff38"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "useful_strings::@a8ced0043e609e2153d6"
+		}
+	],
+	"id" : "prealtor::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-pthread  -ldl -Wall  /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "control_presentation.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "auth_service.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "user_service.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "realty_service.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "persistence.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\graphics\\body.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\graphics\\animation.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\include\\graphics\\pdcurses.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\graphics\\useful_strings.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "auth_presentation.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "user_presentation.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "realty_presentation.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "resources\\sqlite3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\proposal.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\realty.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\code.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\date.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\date_extended.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\number.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\currency.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\estateclass.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\description.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\address.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\user.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\name.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\email.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\password.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\phone.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "source\\entities\\string_extended.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "prealtor",
+	"nameOnDisk" : "prealtor.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "source/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

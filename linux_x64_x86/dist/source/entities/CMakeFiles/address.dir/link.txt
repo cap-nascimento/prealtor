@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaddress.a CMakeFiles/address.dir/__/domains/address.cpp.o
+/usr/bin/ranlib libaddress.a

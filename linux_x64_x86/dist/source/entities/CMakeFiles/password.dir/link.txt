@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpassword.a CMakeFiles/password.dir/__/domains/password.cpp.o
+/usr/bin/ranlib libpassword.a
